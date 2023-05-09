@@ -1,0 +1,31 @@
+body, html {
+  background-image: url(./images/background_image1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.App {
+  padding: 100px 50px
+}
+
+.title {
+  white-space: nowrap;
+  font-size: 6vw;
+}
+
+.titleName {
+  white-space: nowrap;
+  font-size: 6vw;
+  color: #F6A081;
+  margin: 0
+}
+
+.subtitleName{
+  white-space: nowrap;
+  font-size: 3vw;
+  margin: 0
+}
+
