@@ -1,24 +1,22 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
-        <Container>
-            <Navbar.Brand href="#home">I Code Things</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav>
-                    <Nav.Link href="#home">About Me</Nav.Link>
-                    <Nav.Link href="#link">Projects</Nav.Link>
-                    <Nav.Link href="#link">Contact Me</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Container>
-    </Navbar>
+    <nav className="bg-slate-50" expand="lg">
+        
+            <div className="logo" href="#home">I Code Things</div>
+
+                <div >
+                    <li className="about_me_li" > <a href="#aboutMe"/>About Me</li>
+                </div>
+                <div className="right_side_nav">
+                    <li className="projects_li"> <a href="#projects"/>Projects</li>
+                    <li className="contact_me_li"> <a href="#contactMe"/>Contact Me</li>
+                </div>
+            
+        
+    </nav>
 
   
   );
