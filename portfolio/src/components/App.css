@@ -8,7 +8,11 @@ body, html {
 }
 
 .App {
-  padding: 100px 50px
+  padding: 100px 50px;
+  margin: 80px;
+  display: inline-block;
+  border: 3px solid #F6A081;
+
 }
 
 .title {
@@ -31,26 +35,23 @@ body, html {
 
 .about_me_li, .projects_li, .contact_me_li {
   list-style-type: none;
+  padding: 5px;
 }
 
 .logo {
   font-size: 1.5em;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+nav {  
+ justify-content: space-between;
   padding: 1%;
-  background-color: aliceblue;
 }
 
-.right_side_nav {
-  display: flex;
+/* .menu{
+  justify-content: space-between;
+} */
 
-}
 
-.projects_li, .contact_me_li {
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
+
 
